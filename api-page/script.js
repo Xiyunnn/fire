@@ -12,7 +12,7 @@ document.addEventListener('DOMContentLoaded', async () => {
         };
         
         setContent('page', 'textContent', settings.name || "yiweistore UI");
-        setContent('wm', 'textContent', `© 2025 ${settings.apiSettings.creator}. All rights reserved.` || "© 2025 yiweistore. All rights reserved.");
+        setContent('wm', 'textContent', `© 2025 ${settings.apiSettings.creator}. All rights reserved.` || "© 2025 Yiweistore. All rights reserved.");
         setContent('header', 'textContent', settings.name || "sathyastore UI");
         setContent('name', 'textContent', settings.name || "sathyastore UI");
         setContent('version', 'textContent', settings.version || "v1.0");
